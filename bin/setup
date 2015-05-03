@@ -1,0 +1,14 @@
+#!/bin/sh
+set -e
+
+[ ! -d .cabal-sandbox ] && cabal sandbox init
+
+cabal install --dependencies-only --enable-tests
+cabal test || true
+
+cat <<EOF
+
+All set!
+
+Edit src/PatternMatching.hs to get started.
+EOF
