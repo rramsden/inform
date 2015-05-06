@@ -6,9 +6,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-size: 14px;
-  min-height: 100vh;
-  min-width: 60em; }
+  font-size: 1.4em; }
 
 a {
   color: #26ade4;
@@ -26,7 +24,7 @@ a {
   cursor: pointer;
   display: inline-block;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-size: 14px;
+  font-size: 1.4em;
   font-weight: 600;
   line-height: 1;
   padding: 0.75em 1em;
@@ -46,7 +44,7 @@ a {
   border-radius: 18px;
   color: #fff;
   display: inline-block;
-  font-size: 14px;
+  font-size: 1.4em;
   line-height: 1;
   padding: 8px 1.5em 9px; }
   .button:disabled {
@@ -73,8 +71,15 @@ a {
 .button--light:hover {
   border-bottom: 2px solid #26ade4; }
 
+.container {
+  width: 80%;
+  margin: 0 auto; }
+
 .nav {
   padding: 3em 0; }
+  .nav ul {
+    padding: 0;
+    margin: 0; }
 
 .nav-item {
   float: left;
@@ -123,5 +128,11 @@ a {
     margin: 4em 0 -1em;
     position: relative;
     z-index: 0; }
+
+.docs h1, .docs h2, .docs h3, .docs p {
+  display: block; }
+.docs article {
+  width: 70%;
+  margin: auto; }
 
 /*# sourceMappingURL=screen.css.map */

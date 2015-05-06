@@ -23,6 +23,7 @@ library
                      Handler.Common
                      Handler.Root
                      Handler.Link
+                     Handler.Docs
 
     if flag(dev) || flag(library-only)
         cpp-options:   -DDEVELOPMENT

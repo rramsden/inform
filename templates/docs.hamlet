@@ -1,0 +1,26 @@
+<div .docs>
+  <article>
+    <h1>User Guide
+    
+    <p>Inform is a developer friendly service for quickly creating forms.
+    You will need to sign up and register for an account first before
+    using this guide.
+    
+    <h2>Add the HTML snippet
+    
+    <p>Installation is very easy, after creating a form include this HTML snippet at the bottom of your page:
+    
+    <pre>
+      <code>
+        \&lt;script src="https://inform.io/forms/YOUR-FORM-ID/init.js"&gt;&lt;/script&gt;
+        \&lt;script&gt;
+        \  document.addEventListener("DOMContentLoaded", Inform.init);
+        \&lt;/script&gt;
+    
+    <h2>Enable inform
+    
+    <pre>
+      <code>
+        \&lt;form data-inform=true&gt;
+        \ ...
+        \&lt;/form&gt;

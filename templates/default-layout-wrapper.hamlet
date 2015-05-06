@@ -29,11 +29,12 @@ $newline never
           <li .nav-item>
             <a .nav-logo href=@{RootR}>Inform
             <li .nav-item>
-              <a href="">Guide
+              <a href=@{DocsR}>Guide
             <li .nav-item.nav-item--button>
               <a .button.button--light href="">Sign in
-              
-    ^{pageBody pc}
+
+    <div .container>      
+      ^{pageBody pc}
 
     $maybe analytics <- appAnalytics $ appSettings master
       <script>
