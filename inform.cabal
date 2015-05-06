@@ -22,8 +22,7 @@ library
                      Settings.StaticFiles
                      Handler.Common
                      Handler.Root
-                     Handler.LinkNew
-                     Handler.LinkDetails
+                     Handler.Link
 
     if flag(dev) || flag(library-only)
         cpp-options:   -DDEVELOPMENT

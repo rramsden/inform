@@ -5,5 +5,5 @@
 /robots.txt RobotsR GET
 
 / RootR GET
-/forms/new LinkNewR GET POST
-/forms/#LinkId LinkDetailsR GET
+/forms/new LinkR GET POST
+/forms/!#LinkId LinkDetailsR GET

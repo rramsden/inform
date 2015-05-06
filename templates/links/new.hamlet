@@ -1,0 +1,5 @@
+<h1>Create a link
+
+<form method=post action=@{LinkR} enctype=#{enctype}>
+  ^{widget}
+  <input type="submit" value="Submit">
