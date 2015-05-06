@@ -8,5 +8,7 @@ Email
     user UserId Maybe
     verkey Text Maybe
     UniqueEmail email
+Link
+    contact_email Text
 
  -- By default this file is used in Model.hs (which is imported by Foundation.hs)
