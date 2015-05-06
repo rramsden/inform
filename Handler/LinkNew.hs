@@ -8,7 +8,7 @@ import Import
 
 newLinkForm :: AForm Handler Link
 newLinkForm = Link
-  <$> areq textField "contact_email" Nothing
+  <$> areq emailField "email" Nothing
 
 getLinkNewR :: Handler Html
 getLinkNewR = do
