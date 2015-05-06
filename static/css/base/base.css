@@ -1,3 +1,71 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  min-height: 100vh;
+  min-width: 60em; }
 
+a {
+  color: #26ade4;
+  text-decoration: none;
+  transition: color 0.1s linear; }
+  a:active, a:focus, a:active, a:focus {
+    outline: none; }
+
+.btn, button {
+  -webkit-font-smoothing: antialiased;
+  background-color: #26ade4;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+  .btn:hover, .btn:focus, button:hover, button:focus {
+    background-color: #157ea9;
+    color: #fff; }
+  .btn:disabled, button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5; }
+
+.button {
+  background: #26ade4;
+  border-radius: 18px;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1;
+  padding: 8px 1.5em 9px; }
+  .button:disabled {
+    background: transparent;
+    color: #DADADA;
+    padding: 0; }
+
+.button:hover {
+  border-bottom: 0; }
+
+.button--github {
+  background: #26ade4 url("/static/img/github.svg") no-repeat 1em center;
+  padding-left: 2.75em; }
+
+.button--google {
+  background: #26ade4 url("/static/img/google.svg") no-repeat 1em center/20px;
+  padding-left: 2.75em; }
+
+.button--light {
+  background-color: #fff;
+  border: 2px solid #26ade4;
+  color: #26ade4; }
+
+.button--light:hover {
+  border-bottom: 2px solid #26ade4; }
 
 /*# sourceMappingURL=base.css.map */

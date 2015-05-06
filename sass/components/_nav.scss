@@ -4,13 +4,18 @@
 
 .nav-item {
   float: left;
+  font-weight: 500;
   line-height: 4em;
   list-style: none;
   margin: 0 4em 0 0;
 }
 
+.nav-item a {
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
 .nav-item.active a {
-  border-bottom: 2px solid $link-border-color;
   cursor: default;
   pointer-events: none;
 }
@@ -24,13 +29,13 @@
 }
 
 .nav-logo {
-  background: url("/static/img/logo.png") no-repeat left center / 4em;
+  background: url("/static/img/nav-logo.png") no-repeat left center / 4em;
   display: block;
   height: 4em;
-  line-height: 4em;
   padding: 0 0 0 6em;
 }
 
 .nav-logo:hover {
+  text-decoration: none;
   border: 0;
 }
